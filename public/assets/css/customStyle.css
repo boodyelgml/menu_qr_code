@@ -1,0 +1,131 @@
+
+/* fieldset fix */
+fieldset {
+    border: 1px solid #5275ca1f;
+    padding: 10px;
+}
+
+legend.scheduler-border {
+    width: inherit !important;
+    font-weight: 800;
+    color: #5474c9;
+    padding: 0px 10px !important;
+}
+
+legend {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #5474c9;
+     !important;
+}
+
+
+/* wrapper overflow fix */
+#wrapper {
+    overflow: auto !important;
+    padding-bottom: 30px;
+}
+
+/* body padding fix */
+body {
+    padding-bottom: 0px !important;
+}
+
+.tilebox-one {
+    border: 1px solid #d0d0be;
+}
+
+/* dashboard cards */
+.page-title-box {
+    margin: 0 -25px 18px -25px !important;
+
+}
+
+.card-box {
+    box-shadow: -2px 4px 3px 0px rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
+    margin-bottom: 5px;
+}
+
+/* hide number field arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* images initialitiation */
+img {
+    cursor: pointer;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+    border-radius: 3px;
+}
+
+table img{
+    box-shadow:none !important;
+}
+.modal img{
+    box-shadow:none !important;
+}
+
+.imgLightbox {
+    transform: scale()
+}
+.modal-content #targetImage {
+
+}
+
+.topbar-left img {
+    box-shadow: none !important;
+}
+
+/* datatable  */
+td {
+    vertical-align: middle !important;
+}
+
+tfoot {
+    display: table-row-group;
+}
+
+tfoot select {
+    width: 100% !important;
+}
+
+table .form-control {
+    height: 30px !important;
+}
+
+/* scrollbar edit */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3f83d5;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* card header title  */
+.card-header h5 {
+    margin: 0px;
+}
+

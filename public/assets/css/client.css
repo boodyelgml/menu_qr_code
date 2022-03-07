@@ -1,0 +1,178 @@
+/*//////// general ///////*/
+html {
+    overflow-x: hidden;
+    height: -webkit-fill-available;
+}
+
+body {
+    line-height: 1;
+    overflow-x: hidden;
+    margin-bottom: 38px;
+    height: -webkit-fill-available;
+}
+
+img {
+    cursor: pointer;
+    border-radius: 3px;
+    max-width: 110px !important;
+    max-height: 80px !important;
+}
+
+h5 {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+span {
+    font-size: 14px;
+    line-height: 18px !important;
+}
+
+/*/////// tabs ///////*/
+ul {
+    direction: rtl;
+}
+
+ul.nav-tabs {
+    background: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 0px;
+    margin-top: -5px;
+}
+
+ul.nav-tabs a {
+    color: black;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fef748;
+    background-color: #3c1a5b;
+    border-color: #3c1a5b #3c1a5b #3c1a5b;
+
+}
+
+
+/*/////// Restaurant ///////*/
+.restaurantInfo {
+    background: #3c1a5b;
+    box-shadow: 0 2px 5px 0 rgba(60, 26, 91, 0.09), 0 2px 10px 0 rgba(60, 26, 91, 0.59);
+    position: relative;
+    z-index: 999999999999;
+}
+
+.restaurantInfo h4 {
+    color: #fef748 !important;
+}
+
+.restaurantInfo span {
+    color: #ffffffdb !important;
+}
+
+
+.restaurantInfo img {
+    border: 1px solid #311b92;
+
+}
+
+/*//////// Category ////////*/
+.card {
+    border: none;
+    margin-bottom: 1px;
+}
+
+.card-header {
+    margin: 0px;
+    padding: 5px;
+    box-shadow: 2px 26px 13px -28px rgba(49, 27, 146, 0.35);
+    border-bottom: 1px solid rgba(49, 27, 146, 0.05);
+    background: white;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.category {
+    padding-top: 7px;
+}
+
+.EngCat h5,
+.EngCat span {
+    text-transform: capitalize;
+
+}
+
+/*/////// Items ///////*/
+.description {
+    color: #2125299e;
+
+}
+
+
+
+/*/////// Topads ///////*/
+
+#TopAdss .close , #TopAdss_ar .close_ar{
+    font-size: 30px
+}
+
+#TopAdss img , #TopAdss_ar img{
+    z-index: 99999999999999999999999999;
+    max-height: 100% !important;
+    max-width: 100% !important;
+}
+
+
+/*//////////// Modal /////////////*/
+.modal {
+    z-index: 99999999999999999999999999;
+    margin-top: 50%;
+}
+
+.modal img {
+    z-index: 99999999999999999999999999;
+    max-height: 100% !important;
+    max-width: 100% !important;
+}
+
+
+
+
+/*//////////// rating /////////////*/
+.rate {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+
+}
+
+.emoji {
+    font-size: 120px;
+    line-height: 40px;
+}
+
+input {
+    cursor: ew-resize;
+}
+
+.ratingContainer {
+    background-color: #ffffff;
+    width: 284px;
+    z-index: 999999999999 !important;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 7px 28px 2px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: -2px 7px 28px 2px rgba(0, 0, 0, 0.28);
+    box-shadow: -2px 7px 28px 2px rgba(0, 0, 0, 0.28);
+    position: absolute;
+    right: 15px;
+    bottom: 65px;
+    transition: 0.3s all ease-in-out;
+}
+
+#feedbackFormButton,
+#feedbackFormButton_ar {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
